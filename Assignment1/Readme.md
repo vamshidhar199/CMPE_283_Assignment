@@ -17,7 +17,7 @@ Taken the cmpe283-1.c file from the above git repo.
 * ![output 1](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment1/assignment1-output1.jpg)
 * ![output 2](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment1/assignment1-output2.jpg)
 * 8.Finally commit the changes to the git using 
-   - git add <folder name>
+   - git add folderName
    - git commit -m "commit message"
    - git push
   
