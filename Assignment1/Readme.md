@@ -1,7 +1,8 @@
-# Note:
+## Note:
 https://github.com/mlarkin2015/linux/blob/master/cmpe283/cmpe283-1.c 
 Taken the cmpe283-1.c file from the above git repo.
 
+## Steps to complete the assignment 1:
 * 1.Install git using command line
 * 2.Fork the repository from torvex/linux into own repository and clone the same into local repository.
 * 3.Now build the linux kernel code using the commands
