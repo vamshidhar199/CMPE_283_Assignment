@@ -1488,7 +1488,7 @@ int kvm_emulate_cpuid(struct kvm_vcpu *vcpu)
 	
 	}
 	else if(eax==0x4FFFFFFD){
-	uint32_t s_count;
+	uint32_t count;
 	
 	if(ecx>=0 && ecx<=68 && ecx!=65 && ecx!=42 && ecx!=38 && ecx!=35) {
          
@@ -1503,8 +1503,8 @@ int kvm_emulate_cpuid(struct kvm_vcpu *vcpu)
 				
 				eax = atomic64_read(&i_exit_counter[ecx]);
 		        printk(KERN_INFO "Exit reason =%u and Exit counter eax=%u", ecx, eax);
-		        s_count = atomic64_read(&i_exit_counter[ecx]);
-		       	printk(KERN_INFO "exit number %d exits= %d\n",ecx,s_count);
+		        count = atomic64_read(&i_exit_counter[ecx]);
+		       	printk(KERN_INFO "exit number %d exits= %d\n",ecx,count);
 			}
 		} else {
 			
