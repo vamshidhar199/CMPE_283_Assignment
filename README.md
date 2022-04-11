@@ -1,3 +1,6 @@
 # CMPE_283_Assignment
 
-Refer Assignment 1 readme for the details of procedure followed. 
+Refer Assignment 1 folder for assignment 1
+Refer Assignment 2 and 3  folder for assignment 2
+Refer Assignment 2 and 3  folder for assignment 3
+
