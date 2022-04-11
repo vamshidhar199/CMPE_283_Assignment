@@ -1468,7 +1468,7 @@ int kvm_emulate_cpuid(struct kvm_vcpu *vcpu)
 
 	eax = kvm_rax_read(vcpu);
 	ecx = kvm_rcx_read(vcpu);
-	
+	//assignment 2
 	if(eax==0x4fffffff){
 	
 		//kvm_cpuid(vcpu, &eax, &ebx, &ecx, &edx, true);
@@ -1487,6 +1487,7 @@ int kvm_emulate_cpuid(struct kvm_vcpu *vcpu)
 		printk("eax = 0x4ffffffe \n Total Cycles spent in exit = %llu", atomic64_read(&exit_duration));
 	
 	}
+	//assignment 3
 	else if(eax==0x4FFFFFFD){
 	uint32_t count;
 	
