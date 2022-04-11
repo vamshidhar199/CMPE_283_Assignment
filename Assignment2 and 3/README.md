@@ -41,16 +41,11 @@
 ### Please follow the similar steps as above in Assignment 2. Now we have to add code for leafs 0xffffffd and 0xffffffc. And compile the kernel with the same commands as above.
 
 # Questions:
-## 1.For each member in your team, provide 1 paragraph detailing what parts of the lab that member 
-implemented / researched.
+## 1.For each member in your team, provide 1 paragraph detailing what parts of the lab that member implemented / researched.
 - - I have done it alone.
-## 2.Describe in detail the steps you used to complete the assignment. Consider your reader to be someone 
-skilled in software development but otherwise unfamiliar with the assignment. Good answers to this 
-question will be recipes that someone can follow to reproduce your development steps.
+## 2.Describe in detail the steps you used to complete the assignment. Consider your reader to be someone skilled in software development but otherwise unfamiliar with the assignment. Good answers to this question will be recipes that someone can follow to reproduce your development steps.
 - - It is as described in details in the above description.
-## 3.Comment on the frequency of exits – does the number of exits increase at a stable rate? Or are there 
-more exits performed during certain VM operations? Approximately how many exits does a full VM 
-boot entail?
+## 3.Comment on the frequency of exits – does the number of exits increase at a stable rate? Or are there more exits performed during certain VM operations? Approximately how many exits does a full VM boot entail?
 - -
 ## 4.Of the exit types defined in the SDM, which are the most frequent? Least?
 - -
