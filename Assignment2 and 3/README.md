@@ -1,4 +1,5 @@
 # Assignment 2
+## Steps to run the assignment
 ### Set up the environment:
 #### 1.First thing is to build the kernel and before starting the process of building make sure the environment is setup with all the required packages installed.
 - - use this link https://askubuntu.com/questions/718381/how-to-compile-and-install-custom-mainline-kernel
