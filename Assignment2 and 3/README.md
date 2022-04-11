@@ -26,7 +26,7 @@
 	
 	}```
 - - - The above code is for 0xffffffe and oxfffffff. Build the kernel again.
-- 
+
 #### 4. Now we need to install virtual manager and for that we need to install kvm and virt-manager
 - - - Use this link to follow steps needed: https://help.ubuntu.com/community/KVM/Installation
 - - - Now install virt manager using `sudo apt-get install virt-manager`
