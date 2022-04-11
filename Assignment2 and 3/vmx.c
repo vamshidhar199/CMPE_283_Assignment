@@ -6038,7 +6038,7 @@ static int __vmx_handle_exit(struct kvm_vcpu *vcpu, fastpath_t exit_fastpath)
 	 
 	 if(exit_reason.basic <69){
 	 atomic64_inc(&i_exit_counter[exit_reason.basic]);
-	 atomic64_add((rdtsc()-start_time), &total_cpu_cycles_per_reason[exit_handler_index]);
+	 atomic64_add((rdtsc()-start_time), &total_cpu_cycles_per_reason[exit_reason.basic]);
 	 }
 	 
 	 
