@@ -1493,7 +1493,7 @@ int kvm_emulate_cpuid(struct kvm_vcpu *vcpu)
 	
 	if(ecx>=0 && ecx<=68 && ecx!=65 && ecx!=42 && ecx!=38 && ecx!=35) {
          
-			if(ecx==3 || ecx==4 || ecx==5 || ecx==6 || ecx==16 || ecx==11 || ecx==17 || ecx==16 || ecx==33 || ecx==34 || ecx==51 || ecx==54 || ecx==63 || ecx== 64 || ecx==66 || ecx== 67 || ecx== 68 ) {
+			if(ecx==16 || ecx==33 || ecx==34 || ecx==51 || ecx==54 || ecx==63 || ecx== 64 || ecx==66 || ecx== 67 || ecx== 68 || ecx==3 || ecx==4 || ecx==5 || ecx==6 || ecx==16 || ecx==11 || ecx==17) {
 				printk(KERN_INFO "Exit reason =%u not enabled in kvm ", ecx);
 				eax=0;
 				ebx=0;
@@ -1505,7 +1505,7 @@ int kvm_emulate_cpuid(struct kvm_vcpu *vcpu)
 				eax = atomic64_read(&i_exit_counter[ecx]);
 		        printk(KERN_INFO "Exit reason =%u and Exit counter eax=%u", ecx, eax);
 		        count = atomic64_read(&i_exit_counter[ecx]);
-		       	printk(KERN_INFO "exit number %d exits= %d\n",ecx,count);
+		       printk(KERN_INFO "exit number %d exits= %d\n",ecx,count);
 			}
 		} else {
 			
@@ -1524,7 +1524,7 @@ int kvm_emulate_cpuid(struct kvm_vcpu *vcpu)
 	
 	if(ecx>=0 && ecx<=68 && ecx!=65 && ecx!=42 && ecx!=38 && ecx!=35) {
          
-			if(ecx==3 || ecx==4 || ecx==5 || ecx==6 || ecx==16 || ecx==11 || ecx==17 || ecx==16 || ecx==33 || ecx==34 || ecx==51 || ecx==54 || ecx==63 || ecx== 64 || ecx==66 || ecx== 67 || ecx== 68 ) {
+			if(ecx==16 || ecx==33 || ecx==34 || ecx==51 || ecx==54 || ecx==63 || ecx== 64 || ecx==66 || ecx== 67 || ecx== 68 || ecx==3 || ecx==4 || ecx==5 || ecx==6 || ecx==16 || ecx==11 || ecx==17 ) {
 				printk(KERN_INFO "Exit reason =%u not enabled in kvm ", ecx);
 				eax=0;
 				ebx=0;
