@@ -47,6 +47,8 @@
 #### Screenshots:
 ![alt text](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment2%20and%203/cpuidExits.jpg)
 ![alt text](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment2%20and%203/Output2.jpg)
+![alt](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment2%20and%203/ox4ffffffcOutput1.jpg)
+![alt](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment2%20and%203/ox4ffffffcOutput2.jpg)
 
 # Questions:
 ## 1.For each member in your team, provide 1 paragraph detailing what parts of the lab that member implemented / researched.
