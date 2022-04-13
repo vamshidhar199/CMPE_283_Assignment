@@ -1478,10 +1478,10 @@ int kvm_emulate_cpuid(struct kvm_vcpu *vcpu)
 	else if(eax==0x4ffffffe){
 		//kvm_cpuid(vcpu, &eax, &ebx, &ecx, &edx, true);
 				
-		ebx = ((atomic64_read(&exit_duration)>>32) & 0xfffffffe );
+		ebx = ((atomic64_read(&exit_duration)>>32));
 		printk("eax = 0x4FFFFFFE \n Total time spent processing all exits in ebx[high 32 bits] = %u", ebx);
 			
-		ecx = (atomic64_read(&exit_duration) & 0xfffffffe);
+		ecx = (atomic64_read(&exit_duration) & 0xffffffff);
 		printk("eax = 0x4ffffffe \n Total time spent processing all exits in ecx[low 32 bits] = %u", ecx);
 		
 		printk("eax = 0x4ffffffe \n Total Cycles spent in exit = %llu", atomic64_read(&exit_duration));
@@ -1489,24 +1489,26 @@ int kvm_emulate_cpuid(struct kvm_vcpu *vcpu)
 	}
 	//assignment 3
 	else if(eax==0x4FFFFFFD){
-	uint32_t count;
-	
-	if(ecx>=0 && ecx<=68 && ecx!=65 && ecx!=42 && ecx!=38 && ecx!=35) {
-         
-			if(ecx==16 || ecx==33 || ecx==34 || ecx==51 || ecx==54 || ecx==63 || ecx== 64 || ecx==66 || ecx== 67 || ecx== 68 || ecx==3 || ecx==4 || ecx==5 || ecx==6 || ecx==16 || ecx==11 || ecx==17) {
-				printk(KERN_INFO "Exit reason =%u not enabled in kvm ", ecx);
+	//uint32_t count;
+	//eax=0x0;
+	if(ecx==3 || ecx==4 || ecx==5 || ecx==6 || ecx==16 || ecx==11 || ecx==17 || ecx==16 || ecx==33 || ecx==34 || ecx==51 || ecx==54 || ecx==63 || ecx== 64 || ecx==66 || ecx== 67 ) {
+				printk(KERN_INFO "exit reason number=%u not enabled in KVM", ecx);
 				eax=0;
 				ebx=0;
 				ecx=0;
 				edx=0;
 
-			} else {
+			}
+	else if(ecx>=0 && ecx<=68 && ecx!=65 && ecx!=42 && ecx!=38 && ecx!=35) {
+         
+			
 				
 				eax = atomic64_read(&i_exit_counter[ecx]);
 		        printk(KERN_INFO "Exit reason =%u and Exit counter eax=%u", ecx, eax);
-		        count = atomic64_read(&i_exit_counter[ecx]);
-		       printk(KERN_INFO "exit number %d exits= %d\n",ecx,count);
-			}
+		        
+		        edx=0;
+		       printk(KERN_INFO "exit number %d exits= %d\n",ecx,eax);
+			
 		} else {
 			
 		    printk(KERN_INFO "exit reason =%u is not defined in SDM", ecx);
@@ -1520,26 +1522,27 @@ int kvm_emulate_cpuid(struct kvm_vcpu *vcpu)
 	
 	
 	else if(eax==0x4FFFFFFC){
-	
-	
-	if(ecx>=0 && ecx<=68 && ecx!=65 && ecx!=42 && ecx!=38 && ecx!=35) {
-         
-			if(ecx==16 || ecx==33 || ecx==34 || ecx==51 || ecx==54 || ecx==63 || ecx== 64 || ecx==66 || ecx== 67 || ecx== 68 || ecx==3 || ecx==4 || ecx==5 || ecx==6 || ecx==16 || ecx==11 || ecx==17 ) {
-				printk(KERN_INFO "Exit reason =%u not enabled in kvm ", ecx);
+	//uint32_t count;
+	//eax=0x0;
+	if(ecx==3 || ecx==4 || ecx==5 || ecx==6 || ecx==16 || ecx==11 || ecx==17 || ecx==16 || ecx==33 || ecx==34 || ecx==51 || ecx==54 || ecx==63 || ecx== 64 || ecx==66 || ecx== 67 ) {
+				printk(KERN_INFO "exit reason number=%u not enabled in KVM", ecx);
 				eax=0;
 				ebx=0;
 				ecx=0;
 				edx=0;
 
-			} else {
+			}
+	else if(ecx>=0 && ecx<=68 && ecx!=65 && ecx!=42 && ecx!=38 && ecx!=35) {
+         
+			
 				printk(KERN_INFO "exit reason = %u",ecx);
 				cycles = atomic64_read(&total_cpu_cycles_per_reason[ecx]);
 						ebx = (cycles >> 32);
 						ecx = (cycles & 0xFFFFFFFF);
-						edx = 0x0;
+						edx = 0;
 						printk(KERN_INFO "Time taken = %lli",cycles);
 						
-			}
+			
 		} else {
 			
 		    printk(KERN_INFO "exit reason =%u is not defined in SDM", ecx);
