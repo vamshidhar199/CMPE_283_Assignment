@@ -22,10 +22,10 @@
 	else if(eax==0x4ffffffe){
 		//kvm_cpuid(vcpu, &eax, &ebx, &ecx, &edx, true);
 				
-		ebx = ((atomic64_read(&exit_duration)>>32) & 0xfffffffe );
+		ebx = ((atomic64_read(&exit_duration)>>32)  );
 		printk("eax = 0x4FFFFFFE \n Total time spent processing all exits in ebx[high 32 bits] = %u", ebx);
 			
-		ecx = (atomic64_read(&exit_duration) & 0xfffffffe);
+		ecx = (atomic64_read(&exit_duration) & 0xffffffff);
 		printk("eax = 0x4ffffffe \n Total time spent processing all exits in ecx[low 32 bits] = %u", ecx);
 		
 		printk("eax = 0x4ffffffe \n Total Cycles spent in exit = %llu", atomic64_read(&exit_duration));
