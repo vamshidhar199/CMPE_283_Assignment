@@ -1,8 +1,8 @@
 # Assignment 2 and 3
 - - NOTE: Please use sudo before make command if you face permission errors. To avoid such issues we can add sudo to makes sure everything works fine.
 - - This Readme contains details for both Assignment 2 and 3.
-- - **Assignment 2** https://github.com/vamshidhar199/CMPE_283_Assignment/edit/master/Assignment2%20and%203/README.md#assignment-2
-- - **Assignment 3** https://github.com/vamshidhar199/CMPE_283_Assignment/edit/master/Assignment2%20and%203/README.md#assignment-3
+- - **Assignment 2** https://github.com/vamshidhar199/CMPE_283_Assignment/tree/master/Assignment2%20and%203#assignment-2
+- - **Assignment 3** https://github.com/vamshidhar199/CMPE_283_Assignment/edit/master/Assignment2%20and%203#assignment-3
 #  Assignment 2:
 ## Steps to run the assignment
 ### Set up the environment:
