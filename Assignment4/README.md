@@ -4,7 +4,7 @@
 - - 2.Open the nested vm inside the vm and run the the test file to check the output of assignment 3.
 - - 3.Note the output as a text file and keep it for reference.
 - - 4.Next you need to shut down the vm and run below command to disable nested paging.
-- - ![alt](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment4/assignment4.jpeg)
+- - ![alt](https://github.com/vamshidhar199/VirtualizatioAssignmentVamshidhar/blob/master/Assignment4/assignment4.jpeg)
 - - 5.Repeat the same steps as above and record the results.
 
 # Questions:
@@ -12,15 +12,15 @@
 - - I have done alone
 ## 2.Include a sample of your print of exit count output from dmesg from “with ept” and “without ept”.
 - - Below screenshots include the time and number of exits for each exit number
-- -![alt](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment4/a1.jpg)
-- -![alt](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment4/a2.jpg)
-- -![alt](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment4/a3.jpg)
-- -![alt](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment4/aa1.jpg)
-- -![alt](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment4/aa2.jpg)
-- -![alt](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment4/aa3.jpg)
-- -![alt](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment4/aa4.jpg)
-- -![alt](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment4/aa5.jpg)
-- -![alt](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment4/aa6.jpg)
+- -![alt](https://github.com/vamshidhar199/VirtualizatioAssignmentVamshidhar/blob/master/Assignment4/a1.jpg)
+- -![alt](https://github.com/vamshidhar199/VirtualizatioAssignmentVamshidhar/blob/master/Assignment4/a2.jpg)
+- -![alt](https://github.com/vamshidhar199/VirtualizatioAssignmentVamshidhar/blob/master/Assignment4/a3.jpg)
+- -![alt](https://github.com/vamshidhar199/VirtualizatioAssignmentVamshidhar/blob/master/Assignment4/aa1.jpg)
+- -![alt](https://github.com/vamshidhar199/VirtualizatioAssignmentVamshidhar/blob/master/Assignment4/aa2.jpg)
+- -![alt](https://github.com/vamshidhar199/VirtualizatioAssignmentVamshidhar/blob/master/Assignment4/aa3.jpg)
+- -![alt](https://github.com/vamshidhar199/VirtualizatioAssignmentVamshidhar/blob/master/Assignment4/aa4.jpg)
+- -![alt](https://github.com/vamshidhar199/VirtualizatioAssignmentVamshidhar/blob/master/Assignment4/aa5.jpg)
+- -![alt](https://github.com/vamshidhar199/VirtualizatioAssignmentVamshidhar/blob/master/Assignment4/aa6.jpg)
 
 ## 3.What did you learn from the count of exits? Was the count what you expected? If not, why not?
 - - The count of number of exits are more in shadow paging compared to that of the nested paging and it is expected because of following reasons.
