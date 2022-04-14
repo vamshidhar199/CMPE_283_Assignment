@@ -11,6 +11,7 @@
 ## 1.For each member in your team, provide 1 paragraph detailing what parts of the lab that member implemented / researched. (You may skip this question if you are doing the lab by yourself).
 - - I have done alone
 ## 2.Include a sample of your print of exit count output from dmesg from “with ept” and “without ept”.
+- - Below screenshots include the time and number of exits for each exit number
 - -![alt](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment4/a1.jpg)
 - -![alt](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment4/a2.jpg)
 - -![alt](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment4/a3.jpg)
