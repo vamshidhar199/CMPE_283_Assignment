@@ -4,5 +4,5 @@
 - - 2.Open the nested vm inside the vm and run the the test file to check the output of assignment 3.
 - - 3.Note the output as a text file and keep it for reference.
 - - 4.Next you need to shut down the vm and run below command to disable nested paging.
-- - ![alt]()
+- - ![alt](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment4/assignment4.jpeg)
 - - 5.Repeat the same steps as above and record the results.
