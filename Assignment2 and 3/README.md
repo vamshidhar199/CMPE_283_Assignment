@@ -1,8 +1,9 @@
 # Assignment 2 and 3
 - - NOTE: Please use sudo before make command if you face permission errors. To avoid such issues we can add sudo to makes sure everything works fine.
 - - This Readme contains details for both Assignment 2 and 3.
-- - **Assignment 2** https://github.com/vamshidhar199/CMPE_283_Assignment/tree/master/Assignment2%20and%203#assignment-2
-- - **Assignment 3** https://github.com/vamshidhar199/CMPE_283_Assignment/edit/master/Assignment2%20and%203#assignment-3
+- **Table of contents**
+- - **Assignment 2** 
+- - **Assignment 3** 
 - - **Questions** answered at the end of readme file.
 #  Assignment 2:
 ## Steps to run the assignment
@@ -41,7 +42,7 @@
 #### 5. Now to check the output, we need a nested vm which we have created in the previous step. Install cpuid package and the test can be done using this package.
 #### Screenshots of the outputs
 
-![alt text](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment2%20and%203/assignment2-output.jpg)
+![alt text](https://github.com/vamshidhar199/VirtualizatioAssignmentVamshidhar/blob/master/Assignment2%20and%203/assignment2-output.jpg)
 #
 #
 #
@@ -49,12 +50,12 @@
 # Assignment 3
 ## Steps for assignment 3
 - - - Please follow the similar steps as above in Assignment 2. Now we have to add code for leafs 0xffffffd and 0xffffffc. And compile the kernel with the same commands as above. Only change is to the code.
-- - - https://github.com/vamshidhar199/CMPE_283_Assignment/tree/master/Assignment2%20and%203#steps-to-run-the-assignment
+- - - https://github.com/vamshidhar199/VirtualizatioAssignmentVamshidhar/tree/master/Assignment2%20and%203#steps-to-run-the-assignment
 #### Screenshots:
-![alt text](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment2%20and%203/cpuidExits.jpg)
-![alt text](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment2%20and%203/Output2.jpg)
-![alt](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment2%20and%203/ox4ffffffcOutput1.jpg)
-![alt](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment2%20and%203/ox4ffffffcOutput2.jpg)
+![alt text](https://github.com/vamshidhar199/VirtualizatioAssignmentVamshidhar/blob/master/Assignment2%20and%203/cpuidExits.jpg)
+![alt text](https://github.com/vamshidhar199/VirtualizatioAssignmentVamshidhar/blob/master/Assignment2%20and%203/Output2.jpg)
+![alt](https://github.com/vamshidhar199/VirtualizatioAssignmentVamshidhar/blob/master/Assignment2%20and%203/ox4ffffffcOutput1.jpg)
+![alt](https://github.com/vamshidhar199/VirtualizatioAssignmentVamshidhar/blob/master/Assignment2%20and%203/ox4ffffffcOutput2.jpg)
 
 # Questions:
 ## 1.For each member in your team, provide 1 paragraph detailing what parts of the lab that member implemented / researched.
