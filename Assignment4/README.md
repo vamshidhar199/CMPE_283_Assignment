@@ -11,12 +11,16 @@
 ## 1.For each member in your team, provide 1 paragraph detailing what parts of the lab that member implemented / researched. (You may skip this question if you are doing the lab by yourself).
 - - I have done alone
 ## 2.Include a sample of your print of exit count output from dmesg from “with ept” and “without ept”.
+- -![alt](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment4/a1.jpg)
+- -![alt](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment4/a2.jpg)
+- -![alt](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment4/a3.jpg)
 - -![alt](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment4/aa1.jpg)
 - -![alt](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment4/aa2.jpg)
 - -![alt](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment4/aa3.jpg)
 - -![alt](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment4/aa4.jpg)
 - -![alt](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment4/aa5.jpg)
 - -![alt](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment4/aa6.jpg)
+- - Included a txt file with outputs in the repo.
 ## 3.What did you learn from the count of exits? Was the count what you expected? If not, why not?
 - - 
 ## 4.What changed between the two runs (ept vs no-ept)?
