@@ -3,7 +3,7 @@
 - - This Readme contains details for both Assignment 2 and 3.
 - - **Assignment 2** https://github.com/vamshidhar199/CMPE_283_Assignment/tree/master/Assignment2%20and%203#assignment-2
 - - **Assignment 3** https://github.com/vamshidhar199/CMPE_283_Assignment/edit/master/Assignment2%20and%203#assignment-3
-- - **Questions** https://github.com/vamshidhar199/CMPE_283_Assignment/tree/master/Assignment2%20and%203#questions
+- - **Questions** answered at the end of readme file.
 #  Assignment 2:
 ## Steps to run the assignment
 ### Set up the environment:
