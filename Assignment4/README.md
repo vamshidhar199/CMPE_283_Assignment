@@ -23,6 +23,9 @@
 - -![alt](https://github.com/vamshidhar199/CMPE_283_Assignment/blob/master/Assignment4/aa6.jpg)
 
 ## 3.What did you learn from the count of exits? Was the count what you expected? If not, why not?
-- - 
+- - The count of number of exits are more in shadow paging compared to that of the nested paging and it is expected because of following reasons.
+- - Nested paging is a widely used hardware technique to virtualize memory. The processor has two page table pointers to perform a complete translation: one points to the guest page table (gptr) and the other points to the host page table(hptr). The guest page table holds gVA to gPA translation and the host page table holds gPA to hPA translations.Nested paging allows fast direct updates to both of the page tables without any VMM intervention
+- - With shadow paging, the VMM creates a shadow page table by merging the guest and host tables, then holds a complete translation from gVA⇒hPA.This technique does not allow direct updates to the page tables since the shadow page table needs to be kept consistent. Every page table update requires a costly VMM intervention
+
 ## 4.What changed between the two runs (ept vs no-ept)?
 - - The number of exits in shadow paging are more compared to the nested paging.
