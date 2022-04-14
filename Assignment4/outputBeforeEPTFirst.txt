@@ -1,0 +1,138 @@
+CPUID(0x4FFFFFFC), exit number=0, time taken=5313912 
+CPUID(0x4FFFFFFC), exit number=1, time taken=207432223 
+CPUID(0x4FFFFFFC), exit number=2, time taken=0 
+CPUID(0x4FFFFFFC), exit number=3, time taken=0 
+CPUID(0x4FFFFFFC), exit number=4, time taken=0 
+CPUID(0x4FFFFFFC), exit number=5, time taken=0 
+CPUID(0x4FFFFFFC), exit number=6, time taken=0 
+CPUID(0x4FFFFFFC), exit number=7, time taken=17428455 
+CPUID(0x4FFFFFFC), exit number=8, time taken=0 
+CPUID(0x4FFFFFFC), exit number=9, time taken=0 
+CPUID(0x4FFFFFFC), exit number=10, time taken=46259451 
+CPUID(0x4FFFFFFC), exit number=11, time taken=0 
+CPUID(0x4FFFFFFC), exit number=12, time taken=81908575 
+CPUID(0x4FFFFFFC), exit number=13, time taken=0 
+CPUID(0x4FFFFFFC), exit number=14, time taken=0 
+CPUID(0x4FFFFFFC), exit number=15, time taken=0 
+CPUID(0x4FFFFFFC), exit number=16, time taken=0 
+CPUID(0x4FFFFFFC), exit number=17, time taken=0 
+CPUID(0x4FFFFFFC), exit number=18, time taken=0 
+CPUID(0x4FFFFFFC), exit number=19, time taken=0 
+CPUID(0x4FFFFFFC), exit number=20, time taken=0 
+CPUID(0x4FFFFFFC), exit number=21, time taken=0 
+CPUID(0x4FFFFFFC), exit number=22, time taken=0 
+CPUID(0x4FFFFFFC), exit number=23, time taken=0 
+CPUID(0x4FFFFFFC), exit number=24, time taken=0 
+CPUID(0x4FFFFFFC), exit number=25, time taken=0 
+CPUID(0x4FFFFFFC), exit number=26, time taken=0 
+CPUID(0x4FFFFFFC), exit number=27, time taken=0 
+CPUID(0x4FFFFFFC), exit number=28, time taken=11086037 
+CPUID(0x4FFFFFFC), exit number=29, time taken=570 
+CPUID(0x4FFFFFFC), exit number=30, time taken=127899002 
+CPUID(0x4FFFFFFC), exit number=31, time taken=2639668 
+CPUID(0x4FFFFFFC), exit number=32, time taken=258037816 
+CPUID(0x4FFFFFFC), exit number=33, time taken=0 
+CPUID(0x4FFFFFFC), exit number=34, time taken=0 
+CPUID(0x4FFFFFFC), exit number=35, time taken=0 
+CPUID(0x4FFFFFFC), exit number=36, time taken=0 
+CPUID(0x4FFFFFFC), exit number=37, time taken=0 
+CPUID(0x4FFFFFFC), exit number=38, time taken=0 
+CPUID(0x4FFFFFFC), exit number=39, time taken=0 
+CPUID(0x4FFFFFFC), exit number=40, time taken=98156 
+CPUID(0x4FFFFFFC), exit number=41, time taken=0 
+CPUID(0x4FFFFFFC), exit number=42, time taken=0 
+CPUID(0x4FFFFFFC), exit number=43, time taken=0 
+CPUID(0x4FFFFFFC), exit number=44, time taken=0 
+CPUID(0x4FFFFFFC), exit number=45, time taken=0 
+CPUID(0x4FFFFFFC), exit number=46, time taken=803 
+CPUID(0x4FFFFFFC), exit number=47, time taken=0 
+CPUID(0x4FFFFFFC), exit number=48, time taken=483466705 
+CPUID(0x4FFFFFFC), exit number=49, time taken=54871549 
+CPUID(0x4FFFFFFC), exit number=50, time taken=0 
+CPUID(0x4FFFFFFC), exit number=51, time taken=0 
+CPUID(0x4FFFFFFC), exit number=52, time taken=0 
+CPUID(0x4FFFFFFC), exit number=53, time taken=0 
+CPUID(0x4FFFFFFC), exit number=54, time taken=3584 
+CPUID(0x4FFFFFFC), exit number=55, time taken=940 
+CPUID(0x4FFFFFFC), exit number=56, time taken=0 
+CPUID(0x4FFFFFFC), exit number=57, time taken=0 
+CPUID(0x4FFFFFFC), exit number=58, time taken=0 
+CPUID(0x4FFFFFFC), exit number=59, time taken=0 
+CPUID(0x4FFFFFFC), exit number=60, time taken=0 
+CPUID(0x4FFFFFFC), exit number=61, time taken=0 
+CPUID(0x4FFFFFFC), exit number=62, time taken=0 
+CPUID(0x4FFFFFFC), exit number=63, time taken=0 
+CPUID(0x4FFFFFFC), exit number=64, time taken=0 
+CPUID(0x4FFFFFFC), exit number=65, time taken=0 
+CPUID(0x4FFFFFFC), exit number=66, time taken=0 
+CPUID(0x4FFFFFFC), exit number=67, time taken=0 
+CPUID(0x4FFFFFFC), exit number=68, time taken=0 
+CPUID(0x4FFFFFFD), exit number=0, exits = 44219 
+CPUID(0x4FFFFFFD), exit number=1, exits = 716025 
+CPUID(0x4FFFFFFD), exit number=2, exits = 0 
+CPUID(0x4FFFFFFD), exit number=3, exits = 0 
+CPUID(0x4FFFFFFD), exit number=4, exits = 0 
+CPUID(0x4FFFFFFD), exit number=5, exits = 0 
+CPUID(0x4FFFFFFD), exit number=6, exits = 0 
+CPUID(0x4FFFFFFD), exit number=7, exits = 67249 
+CPUID(0x4FFFFFFD), exit number=8, exits = 0 
+CPUID(0x4FFFFFFD), exit number=9, exits = 0 
+CPUID(0x4FFFFFFD), exit number=10, exits = 714618 
+CPUID(0x4FFFFFFD), exit number=11, exits = 0 
+CPUID(0x4FFFFFFD), exit number=12, exits = 243307 
+CPUID(0x4FFFFFFD), exit number=13, exits = 0 
+CPUID(0x4FFFFFFD), exit number=14, exits = 0 
+CPUID(0x4FFFFFFD), exit number=15, exits = 0 
+CPUID(0x4FFFFFFD), exit number=16, exits = 0 
+CPUID(0x4FFFFFFD), exit number=17, exits = 0 
+CPUID(0x4FFFFFFD), exit number=18, exits = 0 
+CPUID(0x4FFFFFFD), exit number=19, exits = 0 
+CPUID(0x4FFFFFFD), exit number=20, exits = 0 
+CPUID(0x4FFFFFFD), exit number=21, exits = 0 
+CPUID(0x4FFFFFFD), exit number=22, exits = 0 
+CPUID(0x4FFFFFFD), exit number=23, exits = 0 
+CPUID(0x4FFFFFFD), exit number=24, exits = 0 
+CPUID(0x4FFFFFFD), exit number=25, exits = 0 
+CPUID(0x4FFFFFFD), exit number=26, exits = 0 
+CPUID(0x4FFFFFFD), exit number=27, exits = 0 
+CPUID(0x4FFFFFFD), exit number=28, exits = 95410 
+CPUID(0x4FFFFFFD), exit number=29, exits = 6 
+CPUID(0x4FFFFFFD), exit number=30, exits = 1006716 
+CPUID(0x4FFFFFFD), exit number=31, exits = 13063 
+CPUID(0x4FFFFFFD), exit number=32, exits = 895337 
+CPUID(0x4FFFFFFD), exit number=33, exits = 0 
+CPUID(0x4FFFFFFD), exit number=34, exits = 0 
+CPUID(0x4FFFFFFD), exit number=35, exits = 0 
+CPUID(0x4FFFFFFD), exit number=36, exits = 0 
+CPUID(0x4FFFFFFD), exit number=37, exits = 0 
+CPUID(0x4FFFFFFD), exit number=38, exits = 0 
+CPUID(0x4FFFFFFD), exit number=39, exits = 0 
+CPUID(0x4FFFFFFD), exit number=40, exits = 712 
+CPUID(0x4FFFFFFD), exit number=41, exits = 0 
+CPUID(0x4FFFFFFD), exit number=42, exits = 0 
+CPUID(0x4FFFFFFD), exit number=43, exits = 0 
+CPUID(0x4FFFFFFD), exit number=44, exits = 0 
+CPUID(0x4FFFFFFD), exit number=45, exits = 0 
+CPUID(0x4FFFFFFD), exit number=46, exits = 5 
+CPUID(0x4FFFFFFD), exit number=47, exits = 0 
+CPUID(0x4FFFFFFD), exit number=48, exits = 4301044 
+CPUID(0x4FFFFFFD), exit number=49, exits = 278110 
+CPUID(0x4FFFFFFD), exit number=50, exits = 0 
+CPUID(0x4FFFFFFD), exit number=51, exits = 0 
+CPUID(0x4FFFFFFD), exit number=52, exits = 0 
+CPUID(0x4FFFFFFD), exit number=53, exits = 0 
+CPUID(0x4FFFFFFD), exit number=54, exits = 14 
+CPUID(0x4FFFFFFD), exit number=55, exits = 10 
+CPUID(0x4FFFFFFD), exit number=56, exits = 0 
+CPUID(0x4FFFFFFD), exit number=57, exits = 0 
+CPUID(0x4FFFFFFD), exit number=58, exits = 0 
+CPUID(0x4FFFFFFD), exit number=59, exits = 0 
+CPUID(0x4FFFFFFD), exit number=60, exits = 0 
+CPUID(0x4FFFFFFD), exit number=61, exits = 0 
+CPUID(0x4FFFFFFD), exit number=62, exits = 0 
+CPUID(0x4FFFFFFD), exit number=63, exits = 0 
+CPUID(0x4FFFFFFD), exit number=64, exits = 0 
+CPUID(0x4FFFFFFD), exit number=65, exits = 0 
+CPUID(0x4FFFFFFD), exit number=66, exits = 0 
+CPUID(0x4FFFFFFD), exit number=67, exits = 0 
+CPUID(0x4FFFFFFD), exit number=68, exits = 0 
