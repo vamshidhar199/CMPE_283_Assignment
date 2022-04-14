@@ -28,4 +28,4 @@
 - - With shadow paging, the VMM creates a shadow page table by merging the guest and host tables, then holds a complete translation from gVA⇒hPA.This technique does not allow direct updates to the page tables since the shadow page table needs to be kept consistent. Every page table update requires a costly VMM intervention
 
 ## 4.What changed between the two runs (ept vs no-ept)?
-- - The number of exits in shadow paging are more compared to the nested paging.
+- - The number of exits in shadow paging are more compared to the nested paging. The number of exits keep increasing in shadow paging.
